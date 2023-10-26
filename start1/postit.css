@@ -1,0 +1,35 @@
+body {
+  background-color: #666666;
+  font-family: "Indie Flower";
+  padding-top: 40px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 40px;
+}
+
+.postit {
+  width: 250px;
+  min-height: 190px;
+  background-image: linear-gradient(to bottom, transparent 70%, #00000052);
+}
+
+.postit-yellow {
+  background-color: #f9fac8;
+}
+
+.postit-palegreen {
+  background-color: #c8f8ca;
+}
+
+.postit-lilac {
+  background-color: #c7c7f5;
+}

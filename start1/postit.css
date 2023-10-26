@@ -35,6 +35,13 @@ ul li {
   box-shadow: 5px 4px 13px -2px #000000;
 }
 
+.postit:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  z-index: 5;
+  transition: width 2s, height 4s;
+}
+
 .postit-yellow {
   background-color: #f9fac8;
   transform: rotate(-3deg);
@@ -52,4 +59,10 @@ ul li {
 
 #task4 {
   transform: rotate(12deg);
+}
+
+#task4:hover {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
+  z-index: 5;
 }
